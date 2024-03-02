@@ -9,7 +9,7 @@ Movie Info App is an Android application that allows users to explore various mo
 - Caching Technique: Implemented caching techniques using Room Database to store fetched movie data locally, providing faster access and offline capabilities.
 - Pagination: Utilizes pagination to efficiently handle large amounts of movie data and optimize performance.
 - Different Movie Info: Displays various types of movie information such as popular movies, top-rated movies, upcoming movies, etc.
-- 
+  
 ## Preview
 
 ![App Screenshot](https://github.com/Bhushanp091/MovieApp/blob/master/ScreenShots/Screenshot%202024-03-02%20213233.png?raw=true) 
