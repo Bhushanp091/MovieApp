@@ -15,8 +15,17 @@ Movie Info App is an Android application that allows users to explore various mo
 ![App Screenshot](https://github.com/Bhushanp091/MovieApp/blob/master/ScreenShots/Screenshot%202024-03-02%20213233.png?raw=true) 
 ![App Screenshot](https://github.com/Bhushanp091/MovieApp/blob/master/ScreenShots/Screenshot%202024-03-02%20213223.png?raw=true)
 
+# Architecture
 
+The app follows the MVVM (Model-View-ViewModel) architecture pattern, combined with clean architecture principles for better separation of concerns and maintainability.
 
+## Clean Architecture Layers:
+
+- Presentation Layer: Contains the UI components and ViewModels responsible for presenting data to the user and handling user interactions.
+
+- Domain Layer: Contains uistate and use cases that are independent of any specific framework or technology. It defines entities, repositories, and use cases.
+
+- Data Layer: Handles data operations such as fetching data from APIs or databases, caching, and data mapping. It consists of repositories, data sources, and database entities.
 
 
 ![App Screenshot](https://github.com/Bhushanp091/MovieApp/blob/master/ScreenShots/Screenshot%202024-03-02%20213152.png?raw=true)
